@@ -1,0 +1,105 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+
+#masthead {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.button {
+    background: none repeat scroll 0 0 #45ac9d;
+}
+
+.blog-post {
+	width: 50%;
+	float: left;
+	margin-bottom: 2em;
+}
+
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+.blog-post h3 {
+	font-size: 1.5em;
+}
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+
+/* Single Case Study - Sidebar */
+article.case-study {
+    margin: 40px 0 0;
+    display: flex;
+   
+}
+aside.case-study-sidebar {
+    float: left;
+    width: 314px;
+    margin: 0 40px 0 0;
+}
+div.case-study-images {
+    float: left;
+    width: 606px;
+}
+div.case-study-images img {
+    margin-bottom: 50px;
+    border: 1px solid #dddddd;
+    max-width: 100%;
+	height: auto;
+}
+/* Single Case Study - Back to Work */
+div.back-to-work {
+    border-top: 1px solid #bfbfbf;
+    padding: 15px 0 0;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    
+}
+.back-to-work-link a {
+    text-transform: uppercase;
+    font-size: 14px;
+    float: left;
+}
+.back-to-work-link span {
+    color: #45ac9d;
+}
+
+
+/* Featured Work - 3 Case Studies */
+.featured-work {
+    text-align: center;
+}
+.featured-work ul {
+    list-style-type: none;
+}
+.featured-work h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.individual-featured-work {
+    display:inline-block;
+    text-align: center;
+    margin: 20px;
+}
+
+
